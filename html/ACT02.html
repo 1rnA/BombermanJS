@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberman</title>
+    <script src="../js/ACTBom.js"></script>
+    <script src="https://kit.fontawesome.com/7234a7af43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <img src="../img/logo.png" alt="">
+        <div id="ocultar">
+        <br>
+        <input type="text" placeholder="Nom" id="nombre">
+        <input type="number" name="" placeholder="Mines" id="minas">
+        <br>
+        <br>
+        <input type="submit" id="button" value="Jugar" onclick="jugar()">
+        <input type="submit" id="button" value="Reiniciar" onclick="reiniciar()">
+        </div>
+
+        <div class="tab" id="mostrar" style="display: none;">
+            <div id="tiempo">
+
+            </div>
+            <div id="intentos">
+
+            </div>
+            <div id="puntos">
+
+            </div>
+            <div id="minasres">
+
+            </div>
+            <div id="juego">
+
+            </div>
+            <input type="submit" id="button" value="Reiniciar" onclick="reiniciar()">
+        </div>
+    </div>
+</body>
+</html>
